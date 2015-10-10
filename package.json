@@ -1,0 +1,29 @@
+{
+  "name": "le-git",
+  "version": "1.0.0",
+  "description": "An attempt to implement git with JS for the purpose of better understanding how it works.",
+  "main": "index.js",
+  "scripts": {
+    "jshint": "jshint **/*.js --config ./config/jshint.json",
+    "test": "mocha --opts ./test/mocha.opts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/scottyeck/le-git.git"
+  },
+  "keywords": [
+    "git"
+  ],
+  "author": "Scotty Eckenthal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scottyeck/le-git/issues"
+  },
+  "homepage": "https://github.com/scottyeck/le-git#readme",
+  "devDependencies": {
+    "chai": "^3.3.0",
+    "jshint": "^2.8.0",
+    "mocha": "^2.3.3",
+    "phantomjs": "^1.9.18"
+  }
+}
